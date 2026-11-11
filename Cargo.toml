@@ -1,0 +1,19 @@
+[package]
+name = "lang2lua"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "Convert legacy Hyprland .conf files to native Lua configuration"
+license = "MIT"
+
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+name = "lang2lua"
+path = "src/main.rs"
+
+[lints.clippy]
+correctness = "deny"
+suspicious = "warn"
+
