@@ -44,6 +44,9 @@ dotfiles: they can contain usernames, home paths, monitor/device identifiers, co
 and precise locations. The personal source configs used during development remain in
 `~/.config/hypr` and are not copied into this repository.
 
+`tests/fixtures/minimal.conf` is a sanitized real-world fixture with its exact expected
+Lua output, covering nested settings, colors, gestures, variables, and a keybind.
+
 ## Updating the ruleset
 
 Compare against the latest official Hyprland example, wiki, and generated
